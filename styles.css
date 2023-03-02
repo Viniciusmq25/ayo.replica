@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    border: 0;
+    margin: 0;
+}
+
+.wallpaper img{
+    width: 100vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.avatar{
+    text-align: center;
+    margin-top: -5rem;
+}
+
+.avatar img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 6px solid black;
+}
+
+.texto-avatar{
+    text-align: center;
+}
+
+.texto-avatar h2{
+    color: rgb(212 212 216);
+    font-weight: 700;
+    margin: .5rem;
+}
+
+.texto-avatar p{
+    color: #6b7280;
+    font-weight: 500;
+    margin: 0;
+}
+
+.texto-avatar h3{
+    color: #9ca3af;
+    font-weight: 400;
+}
+
+.tags{
+    color: #818cf8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tags p{
+    border: 2px solid #818cf8;
+    border-radius: 9999px;
+    padding: 0.25rem .5rem 0.25rem 2rem;
+    margin: .20rem;
+}
+
+#gamer{
+    background-image: url("img/controller.png");
+    background-repeat: no-repeat;
+    background-position: .25em;
+}
+
+#dev{
+    background-image: url("img/dev.png");
+    background-repeat: no-repeat;
+    background-position: .35em;
+}
+
+#gym{
+    background-image: url("img/gym.png");
+    background-repeat: no-repeat;
+    background-position: .5em;
+}
+
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.links a{
+    margin: 0 .25rem;
+    color: rgb(224 231 255);
+    text-decoration: none;
+}
+
+#instagram{
+    width: 30px;
+}
+
+#steam{
+    background-color: white;
+    border-radius: 50%;
+    padding: .15rem;
+}
+
+.links p{
+    margin-left: 2.5rem;
+}
+
+#discord{
+    background-image: url("img/discord.png");
+    background-repeat: no-repeat;
+    background-position: .5rem;
+}
+
+#github{
+    background-image: url("img/github.png");
+    background-repeat: no-repeat;
+    background-position: .4rem;
+}
+
+.playlist-spotify{
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    margin: 0 auto;
+    width: 600px;
+}
+
+/* #steam{
+    background-image: url("img/steam.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin: .6rem 0;
+    width: 30px;
+}
+
+#instagram{
+    background-image: url("img/instagram.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+}
+
+#spotify{
+    background-image: url("img/spotify.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+} */
