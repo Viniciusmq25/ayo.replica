@@ -122,8 +122,15 @@ body{
     position: relative;
     align-items: flex-end;
     margin: 0 auto;
-    width: 600px;
+    width: 500px;
 }
+
+@media screen and (max-width:500px){
+    .playlist-spotify{
+        width: 250px;
+    }
+}
+
 
 /* #steam{
     background-image: url("img/steam.png");
