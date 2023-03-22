@@ -33,7 +33,7 @@ body{
     margin: .5rem;
 }
 
-.texto-avatar p{
+.texto-avatar a{
     color: #6b7280;
     font-weight: 500;
     margin: 0;
